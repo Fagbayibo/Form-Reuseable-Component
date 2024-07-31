@@ -40,7 +40,7 @@ export const formatDateTime = (dateString: Date | string) => {
     hour: "numeric", // numeric hour (e.g., '8')
     minute: "numeric", // numeric minute (e.g., '30')
     hour12: true, // use 12-hour clock (true) or 24-hour clock (false)
-  };
+  }; 
 
   const formattedDateTime: string = new Date(dateString).toLocaleString(
     "en-US",
